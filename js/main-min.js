@@ -1582,7 +1582,7 @@ var Links = function ()
 						url: q,
 						isHome: !0
 					};
-					window.history.pushState(u, '', u.url), currentPage.hide(), currentPage.imageLoad.cancel(), currentPage = homepage, document.title = 'Kwok Yin Mak 麥國然'
+					window.history.pushState(u, '', u.url), currentPage.hide(), currentPage.imageLoad.cancel(), currentPage = homepage, document.title = 'DERRICK 鄔泽斌'
 				}
 			else window.location.href = q
 		}
@@ -1833,7 +1833,7 @@ window.onpopstate = function (c)
 {
 	var l = c || window.event,
 		f = l.state;
-	!0 === f.isHome ? 'homepage' === initLanding ? (currentPage.hide(), currentPage.imageLoad.cancel(), currentPage = homepage, document.title = 'Kwok Yin Mak 麥國然') : window.location.href = f.url : (currentPage = new CaseStudy(f.url, f.hex), currentPage.load())
+	!0 === f.isHome ? 'homepage' === initLanding ? (currentPage.hide(), currentPage.imageLoad.cancel(), currentPage = homepage, document.title = 'DERRICK 鄔泽斌') : window.location.href = f.url : (currentPage = new CaseStudy(f.url, f.hex), currentPage.load())
 };
 
 function ready(c)
